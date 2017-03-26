@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <style>
+        body{
+            margin:0;
+            height: auto;
+            font-size: 14px;
+            line-height: 20px;
+            font-family: "Arial", "Microsoft YaHei", "微软雅黑", "SimSun", "宋体";
+        }
+        .hd_nav {
+            height: 50px;
+            line-height: 50px;
+            background-color:darkseagreen;
+        }
+        .wrap {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .hd_nav_list {
+            float: left;
+            width: 800px;
+        }
+        ul {
+            list-style: none;
+            margin: 0px;
+        }
+        .hd_nav_list li.hd_nav_i_on, .hd_nav_list li:hover {
+            border-bottom: 3px solid #f39c12;
+        }
+        .hd_nav_list li {
+            float: left;
+            margin-top: 7px;
+            height: 35px;
+            line-height: 35px;
+            margin-left: 20px;
+            margin-right: 20px;
+            color: #fff;
+            font-size: 16px;
+            border-bottom: 0px solid #f39c12;
+            transition: border 0.3s ease;
+        }
+        .hd_nav_list li a, .hd_nav_list li a:visited {
+            color: #fff;
+            text-decoration: none;
+        }
+        a.hd_nav_home, a.hd_nav_home:visited {
+            float: right;
+            color: #959595;
+            font-size: 14px;
+            transition: color 0.3s ease;
+            text-decoration: none;
+        }
+        a.hd_nav_home:hover{
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body style="background-color: #f4f4f4">
+<div class="hd_nav">
+    <div class="wrap hd_nav_c">
+        <ul class="hd_nav_list">
+            <li><a href="index.html">首页</a></li>
+            <li>
+                <a href="sch.html">学校概况</a>
+            </li>
+            <li  class="hd_nav_i_on">
+                学生注册
+            </li>
+
+            <li>
+                <a href="todo.html">学生任务</a>
+            </li>
+
+            <li>
+                <a href="#">学院设置</a>
+            </li>
+            <li>
+                <a href="sch.html">学校简介</a>
+            </li>
+            <li>
+                <a href="introduce.html">站长介绍</a>
+            </li>
+            <li>
+                <a href="club.html">学生社团</a>
+            </li>
+
+        </ul>
+        <a href="#" target="_blank" class="hd_nav_home">怀念旧版</a>
+    </div>
+</div>
+<fieldset>
+    <legend>
+        <strong>免费注册账号</strong>
+    </legend>
+    <form id="form1" name="form1" method="post" action="">
+        <table width="50%" border="0" cellspacing="0" cellpadding="10">
+            <tr>
+                <td width="100" align="right">学号：</td>
+                <td>
+                    <input name="userName" type="text" id="userName" size="30" maxlength="50" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">&nbsp;</td>
+                <td>你还可以使用
+                    <a href="#">账号</a>注册或者
+                    <a href="#">手机号</a>注册</td>
+            </tr>
+            <tr>
+                <td align="right">创建密码：</td>
+                <td>
+                    <input name="passWord" type="password" id="passWord" size="30" maxlength="16" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">真实姓名：</td>
+                <td>
+                    <input name="trueName" type="text" id="trueName" value="" size="30" maxlength="8" />
+                </td>
+            </tr>
+            <tr>
+                <td align="right">性别：</td>
+                <td>
+                    <input name="sex" type="radio" id="male" value="1" checked="checked" />男
+                    <input type="radio" name="sex" id="female" value="2" />女</td>
+            </tr>
+            <tr>
+                <td align="right">生日：</td>
+                <td>
+                    <select name="birthYear" id="birthYear">
+                        <option value="1990">1990</option>
+                        <option value="1991" selected="selected">1991</option>
+                        <option value="1992">1992</option>
+                    </select>年
+                    <select name="birthMonth" id="birthMonth">
+                        <option value="12">12</option>
+                        <option value="11">11</option>
+                        <option value="10" selected="selected">10</option>
+                    </select>月
+                    <select name="birthDay" id="birthDay">
+                        <option value="31">31</option>
+                        <option value="30" selected="selected">30</option>
+                        <option value="29">29</option>
+                    </select>日</td>
+            </tr>
+            <tr>
+                <td align="right">兴趣爱好：</td>
+                <td>
+                    <input type="checkbox" name="hobby" class="hobby"/>篮球
+                    <input type="checkbox" name="hobby" class="hobby"/>羽毛球
+                    <input type="checkbox" name="hobby" class="hobby"/>乒乓球
+                    <input type="checkbox" name="hobby" class="hobby"/>DOTA2
+                    <input type="checkbox" name="hobby" class="hobby"/>其他
+                </td>
+            </tr>
+            <tr>
+                <td align="right">&nbsp;</td>
+                <td>
+                    <input type="reset" name="btnReg" class="btnReg" value="重置" />
+                    <input type="submit" name="btnReg" class="btnReg" value="注册" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</fieldset>
+</body>
+
+</html>

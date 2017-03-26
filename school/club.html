@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>学生社团</title>
+    <style>
+        body{
+            background:#fff;
+            font:12px/1.14 arial,\5b8b\4f53;
+            color:#333;
+            outline:0;font-family: "Microsoft YaHei";
+        }
+        .hd_nav {
+            height: 50px;
+            line-height: 50px;
+            background-color:darkseagreen;
+        }
+        .wrap {
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .hd_nav_list {
+            float: left;
+            width: 800px;
+        }
+        ul {
+            list-style: none;
+            margin: 0px;
+        }
+        .hd_nav_list li.hd_nav_i_on, .hd_nav_list li:hover {
+            border-bottom: 3px solid #f39c12;
+        }
+        .hd_nav_list li {
+            float: left;
+            margin-top: 7px;
+            height: 35px;
+            line-height: 35px;
+            margin-left: 20px;
+            margin-right: 20px;
+            color: #fff;
+            font-size: 16px;
+            border-bottom: 0px solid #f39c12;
+            transition: border 0.3s ease;
+        }
+        .hd_nav_list li a, .hd_nav_list li a:visited {
+            color: #fff;
+            text-decoration: none;
+        }
+        a.hd_nav_home, a.hd_nav_home:visited {
+            float: right;
+            color: #959595;
+            font-size: 14px;
+            transition: color 0.3s ease;
+            text-decoration: none;
+        }
+        a.hd_nav_home:hover{
+            color: #fff;
+        }
+
+        .banner{
+            text-align: center;
+        }
+        .banner img{
+            margin-top: 20px;
+            width: 1100px;
+        }
+        li{
+            list-style:none;
+        }
+        a,button{
+            cursor:pointer;
+            text-decoration: none;
+        }
+
+        .wrapper{
+            width:100%;
+            min-width: 1280px;
+            position:relative;
+        }
+
+        div .sec_h{
+            padding:20px 0;
+        }
+        div .sec_h h2{
+            text-align: center;
+            line-height: 24px;
+            font-size: 18px;
+        }
+        div .sec_h q{
+            position: absolute;
+            left: 50%;
+            width: 150px;
+            margin-left: -75px;
+            text-align: center;
+            color: #ccc;
+            line-height: 20px;
+            font-size: 14px;
+            background: #fff;
+        }
+        div .hr_gray{
+            width: 300px;
+            margin: 0 auto;
+            border-bottom: 1px solid #ccc;
+            position: relative;
+            height: 10px;
+        }
+
+        #groups .group_tab{
+            overflow: hidden;
+            margin:5px auto 10px;
+            width:700px;
+        }
+        #groups .group_tab li{
+            float:left;
+            width:140px;
+        }
+
+        #groups .group_tab li a{
+            display:block;
+            color:#333;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        #groups .group_cnt li{
+            display:none;
+            overflow: hidden;
+            height:260px;
+            position:relative;
+        }
+        .bt{
+            text-align: center;
+        }
+        .bottom{
+            width: auto;
+            height: 60px;
+            background-color:darkseagreen;
+            text-align: center;
+            line-height: 60px;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="hd_nav">
+    <div class="wrap hd_nav_c">
+        <ul class="hd_nav_list">
+            <li class="hd_nav_i_on">行思简介</li>
+            <li>
+                <a href="#">小组介绍</a>
+            </li>
+
+            <li>
+                <a href="#">作品展示</a>
+            </li>
+
+            <li>
+                <a href="#">团队文化</a>
+            </li>
+            <li>
+                <a href="#">团队成员</a>
+            </li>
+            <li>
+                <a href="index.html">回到首页</a>
+            </li>
+            <li>
+               <a href="#">联系我们</a>
+            </li>
+
+        </ul>
+        <a href="#" target="_blank" class="hd_nav_home">怀念旧版</a>
+    </div>
+</div>
+<div class="wrapper">
+
+    <div class="banner">
+        <img src="images/banner.jpg" alt="行思工作室———参与 协作 奉献">
+    </div>
+
+    <div class="works" id="groups">
+        <div class="sec_h">
+            <h2>小组介绍</h2>
+            <div class="hr_gray">
+                <q>Group introduce</q>
+            </div>
+        </div>
+        <div class="groups_cnt">
+            <ul class="group_tab">
+                <li><a href="#">程序组</a></li>
+                <li><a href="#">设计组</a></li>
+                <li><a href="#">文案组</a></li>
+                <li><a href="#">视创组</a></li>
+                <li><a href="#">产品运营组</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bt">
+        <img src="images/1.png">
+    </div>
+</div>
+<div class="bottom">
+    版权所有&copy;史肖娜 公安备案000480530
+</div>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="description" content="学校首页" />
+    <title>学校首页</title>
+    <style>
+       a {
+           text-decoration: none;
+       }
+        body{
+            margin:0;
+            height: auto;
+            font-size: 14px;
+            line-height: 20px;
+            font-family: "Arial", "Microsoft YaHei", "微软雅黑", "SimSun", "宋体";
+        }
+        .hd_nav {
+            height: 50px;
+            line-height: 50px;
+            background-color:darkseagreen;
+        }
+        .wrap {
+            width: 1000px;
+            margin: 0 auto;
+            }
+        .hd_nav_list {
+            float: left;
+            width: 800px;
+        }
+        ul {
+            list-style: none;
+            margin: 0px;
+        }
+        .hd_nav_list li.hd_nav_i_on, .hd_nav_list li:hover {
+            border-bottom: 3px solid #f39c12;
+            }
+        .hd_nav_list li {
+            float: left;
+            margin-top: 7px;
+            height: 35px;
+            line-height: 35px;
+            margin-left: 20px;
+            margin-right: 20px;
+            color: #fff;
+            font-size: 16px;
+            border-bottom: 0px solid #f39c12;
+            transition: border 0.3s ease;
+        }
+        .hd_nav_list li a, .hd_nav_list li a:visited {
+            color: #fff;
+            text-decoration: none;
+        }
+        a.hd_nav_home, a.hd_nav_home:visited {
+            float: right;
+            color: #959595;
+            font-size: 14px;
+            transition: color 0.3s ease;
+            text-decoration: none;
+        }
+        a.hd_nav_home:hover{
+            color: #fff;
+        }
+    .box-img{
+            height: 200px;
+            width: 200px;
+    }
+
+      .logo{
+          width: auto;
+          height: 200px;
+          background-color: aqua;
+          margin-bottom: 15px;
+          color: #323232;
+          font-size: 50px;
+          font-family: "Arial", "Microsoft YaHei", "微软雅黑", "SimSun", "宋体";
+          text-align: center;
+      }
+
+        .info-tag label{
+            color: #888;
+        }
+        a:visited{
+            text-decoration: none;
+            color: #000;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .info-tag a, .info-tag a:visited{
+            color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 2px 5px;
+        }
+        .info-tag a:hover{
+            background-color: #e64e40;
+            color: #f4f4f4;
+        }
+        .box-img{
+            position: relative;
+        }
+        div.left
+        {
+            float:left;
+            transform:rotate(7deg);
+        }
+
+        div.right
+        {
+            float:left;
+            transform:rotate(-8deg);
+        }
+        #center{
+            margin-left: 300px;
+            margin-top: 40px;
+        }
+        .articleList{
+            display: flex;
+            float: left;
+            margin-left: 100px;
+            font-size: 20px;
+            line-height: 30px;
+            margin-top: 20px;
+        }
+        .conW1{
+            float: inherit;
+        }
+        .bottom{
+            width: auto;
+            height: 60px;
+            background-color: darkseagreen;
+            text-align: center;
+            line-height: 60px;
+            margin-top: 750px;
+            font-size: 15px;
+        }
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<body>
+
+    <div class="logo">我的大学<img class="box-img" src="images/Logo.png">
+            除了奋斗，别无选择
+    </div>
+    <div class="hd_nav">
+        <div class="wrap hd_nav_c">
+            <ul class="hd_nav_list">
+                <li class="hd_nav_i_on">首页</li>
+                <li>
+                    <a href="sch.html">学校概况</a>
+                </li>
+                <li>
+                    <a href="reg.html">学生注册</a>
+                </li>
+
+                <li>
+                    <a href="todo.html">学生任务</a>
+                </li>
+              
+                <li>
+                    <a href="ivy.html">学院设置</a>
+                </li>
+
+                <li>
+                    <a href="club.html">学生社团</a>
+                </li>
+                <li>
+                    <a href="shelian.html">爱心协会</a>
+                </li>
+
+                <li>
+                    <a href="introduce.html">站长介绍</a>
+                </li>
+            </ul>
+            <a href="#" target="_blank" class="hd_nav_home">怀念旧版</a>
+        </div>
+    </div>
+    <div id="center">
+    <div class="left">
+        <img src="images/p2.png" alt="校党委" width="350" height="300" />
+        <p class="caption">校党委召开会议</p>
+    </div>
+    <div class="right">
+        <img src="images/p0.jpg" alt="学校领导" width="350" height="300" />
+        <p class="caption">学校领导</p>
+    </div>
+    </div>
+    <div class="articleList">
+        <h2><span class="title">学术交流与合作</span></h2>
+        <div class="con">
+            <div class="conW1">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">我校与美国加州大学洛杉矶分校签署合作备忘… </a></li>
+                    <li>
+                        <a href="#" target="_blank">清华大学精准医学研究院青海大学包虫病研究… </a></li>
+                    <li>
+                        <a href="#" target="_blank">清华大学国情研究院院长胡鞍钢教授来我校调… </a></li>
+                    <li>
+                        <a href="#" target="_blank">中国科学院电子学研究所与青海大学签署战略… </a></li>
+                    <li>
+                        <a href="#" target="_blank">国际马铃薯中心Dave博士来我校进行学术交流 </a></li>
+                </ul>
+            </div>
+            <div class="conW2">
+                <ul>
+                    <li>
+                        <a href="#" target="_blank">“春油菜杂交种青杂11号的试验与示范”项目通… </a></li>
+                    <li>
+                        <a href="#" target="_blank">新西兰梅西大学商学院、奥克兰国际学院领导访… </a></li>
+                    <li>
+                        <a href="#" target="_blank">西安理工大学党委书记周孝德一行来我校调研 </a></li>
+                    <li>
+                        <a href="#" target="_blank">我校畜牧兽医科院与日本国立宫崎大学农学部… </a></li>
+                    <li>
+                        <a href="#" target="_blank">日本岩手大学小绵利宪教授来我校访问交流 </a></li>
+                </ul>
+            </div>
+        </div>
+        <!--百度地图容器-->
+        <div style="width:400px;height:300px;border:#ccc solid 1px;" id="dituContent"></div>
+    </div>
+<div class="bottom">
+    版权所有&copy;史肖娜 公安备案000480530
+</div>
+    <script type="text/javascript">
+        //创建和初始化地图函数：
+        function initMap(){
+            createMap();//创建地图
+            setMapEvent();//设置地图事件
+            addMapControl();//向地图添加控件
+        }
+
+        //创建地图函数：
+        function createMap(){
+            var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+            var point = new BMap.Point(116.395645,39.929986);//定义一个中心点坐标
+            map.centerAndZoom(point,12);//设定地图的中心点和坐标并将地图显示在地图容器中
+            window.map = map;//将map变量存储在全局
+        }
+
+        //地图事件设置函数：
+        function setMapEvent(){
+            map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+            map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+            map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+            map.enableKeyboard();//启用键盘上下左右键移动地图
+        }
+
+        //地图控件添加函数：
+        function addMapControl(){
+            //向地图中添加缩放控件
+            var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_RIGHT,type:BMAP_NAVIGATION_CONTROL_ZOOM});
+            map.addControl(ctrl_nav);
+            //向地图中添加缩略图控件
+            var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+            map.addControl(ctrl_ove);
+            //向地图中添加比例尺控件
+            var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+            map.addControl(ctrl_sca);
+        }
+
+
+        initMap();//创建和初始化地图
+    </script>
+</body>
+</html>
