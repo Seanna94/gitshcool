@@ -1,10 +1,159 @@
 package com.cn.one;
 
 public class variate {
+	
 	public static void main (String[] args){
-		//选择结构
 		
+		//数字猜大小游戏
+		//获取100以内的随机数：
+		//(int)(Math.random() * 100) + 1;
+		//获取用户输入比较比随机数大或小并提示
+		//记录猜了多少次
+		java.util.Scanner input =new java.util.Scanner(System.in);
+		double num =(int)(Math.random()*100)+1;
+		System.out.println("猜大小游戏开始！");
+		int count=0;
+		while(true){
+		count++;
+		System.out.println("请输入：");
+		int n=input.nextInt();
+		if(num==n){
+			System.out.println("猜对了!一共猜了"+count+"次！");
+			break;
+		}else if(num>n){
+			System.out.println("小了！");
+		}else if(num<n){
+			System.out.println("大了！");
+		}
+		}
+	
+		//菜单功能升级
+		//二级菜单退出后重新进入主菜单
+		//主菜单退出功能，结束整个程序
+		
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		while(true){
+//		System.out.println("       欢迎登录管理系统");
+//		System.out.println("==================");
+//		System.out.println("     1.登录");
+//		System.out.println("     2.注册");
+//		System.out.println("     3.退出");
+//		System.out.println("==================");
+//		System.out.println("请选择：");
+//		int n =input.nextInt();
+//		if(n==1){
+//			System.out.println("登录成功");
+//		}else if(n==2){
+//			System.out.println("注册成功！");
+//		}else if(n==3){
+//			System.out.println("退出成功");
+//			break;
+//		}else{
+//			System.out.println("选择错误！");
+//		}
+//		System.out.println("程序正常退出");
+//		}
+		
+		//循环嵌套
+		//实现打印九九乘法表
+		//外层循环控制行数，内层循环控制列数
+//		for(int i=1;i<=9;i++){
+//			for(int n = 1 ; n <=i ; n++){
+//				System.out.print(n + "*" + n + "=" + i*n +" ");
+//			}
+//			System.out.println();
+//		}
+	
+		//每次打印一个*完成矩形的打印
+		//执行顺序：12*3  2*3  2*3  41 2*3 2*3 2*3 4 12*3 2*3 2*34
+//		for(int a=0;a<3;a++){
+//			System.out.print("1");
+//			for(int b=0;b<3;b++){
+//				System.out.print("2");
+//				System.out.print(" *");
+//				System.out.print("3");
+//			}
+//			System.out.print("4");
+//		}
+		
+		
+		//外层控制行，内层控制列
+//		for(int b=0;b<4;b++){
+//			for(int a=0;a<3;a++){
+//				System.out.print(" *");
+//			}
+//			System.out.println(" #");
+//			}
+			
+		//for循环
+		//对100以内的奇数求和
+		
+//		int count=0;
+//		for(int a=1;a<=100; a++){
+//			if(a % 2==1){
+//				count +=a;
+//			}
+//		}
+//		System.out.println(count);
+//		
+//		int a=0;
+//		while(a<50){
+//			System.out.println(a);
+//			a++;
+//		}
+//		
+//		for(int i=0;i<50;i++){
+//			System.out.println(i);
+//		}
+//		
+		
+		//判断考试是否合格，不合格则继续考试
+//		java.util.Scanner input = new java.util.Scanner(System.in);
+//		int score;
+//		do{
+//			System.out.println("进行编程考试！");
+//			System.out.println("考试得分");
+//			score =input.nextInt();
+//		}while(score<60);
+//		System.out.println("考试成绩合格！");
+	
+//		//选择结构
+//		//do-while 先执行,再判断
+//		int a=0;
+//		do{
+//			a++;
+//			System.out.println("我喜欢你，第"+a+"次！");
+//		}while(a<999);
+		
+		
+		//continue和break
+//		int a =0;
+//		while(a<5){
+//			a++;
+//			if(a==4){
+//				continue;
+//			}
+//			System.out.println(a);
+//		}
+//		
 		//while先判断再执行
+		//对100以内的偶数求和
+//		int a=0;
+//		int b=0;
+//		while(a<=100){
+//			if(a%2==0){
+//				a=a+2;
+//			}
+//			b=b+a;
+//			System.out.println(b);
+//		}
+//		System.out.println(b);
+//		
+//		int a =0;
+//		while(a<50){
+//			System.out.println("好好学习，天天向上");
+//			a++;
+//		}
 		
 		//输入班级人数求平均分
 //		java.util.Scanner input =new java.util.Scanner(System.in);
@@ -20,8 +169,8 @@ public class variate {
 //			str=input.next();
 //		}
 //		System.out.println("平均成绩是："+score/p);
-		
-		
+//		
+//		
 		
 //		java.util.Scanner input =new java.util.Scanner(System.in);
 //			int pice=0;
