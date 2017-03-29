@@ -4,26 +4,22 @@ public class Variate {
 	
 	public static void main (String[] args){
 		
-		//鏁板瓧鐚滃ぇ灏忔父鎴�
-		//鑾峰彇100浠ュ唴鐨勯殢鏈烘暟锛�
-		//(int)(Math.random() * 100) + 1;
-		//鑾峰彇鐢ㄦ埛杈撳叆姣旇緝姣旈殢鏈烘暟澶ф垨灏忓苟鎻愮ず
-		//璁板綍鐚滀簡澶氬皯娆�
+		
 //		java.util.Scanner input =new java.util.Scanner(System.in);
 //		double num =(int)(Math.random()*100)+1;
-//		System.out.println("鐚滃ぇ灏忔父鎴忓紑濮嬶紒");
+//		System.out.println("猜字游戏开始");
 //		int count=0;
 //		while(true){
 //		count++;
-//		System.out.println("璇疯緭鍏ワ細");
+//		System.out.println("请输入一个数字");
 //		int n=input.nextInt();
 //		if(num==n){
-//			System.out.println("鐚滃浜�涓�叡鐚滀簡"+count+"娆★紒");
+//			System.out.println("一共猜了"+count+"次");
 //			break;
 //		}else if(num>n){
-//			System.out.println("灏忎簡锛�");
+//			System.out.println("大了");
 //		}else if(num<n){
-//			System.out.println("澶т簡锛�");
+//			System.out.println("小了");
 //		}
 //		}
 	
