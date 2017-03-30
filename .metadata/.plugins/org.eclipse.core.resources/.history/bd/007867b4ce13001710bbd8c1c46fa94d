@@ -1,0 +1,377 @@
+package com.cn.one;
+
+public class Variate {
+	
+	public static void main (String[] args){
+		
+		//鏁板瓧鐚滃ぇ灏忔父鎴�
+		//鑾峰彇100浠ュ唴鐨勯殢鏈烘暟锛�
+		//(int)(Math.random() * 100) + 1;
+		//鑾峰彇鐢ㄦ埛杈撳叆姣旇緝姣旈殢鏈烘暟澶ф垨灏忓苟鎻愮ず
+		//璁板綍鐚滀簡澶氬皯娆�
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		double num =(int)(Math.random()*100)+1;
+//		System.out.println("鐚滃ぇ灏忔父鎴忓紑濮嬶紒");
+//		int count=0;
+//		while(true){
+//		count++;
+//		System.out.println("璇疯緭鍏ワ細");
+//		int n=input.nextInt();
+//		if(num==n){
+//			System.out.println("鐚滃浜�涓�叡鐚滀簡"+count+"娆★紒");
+//			break;
+//		}else if(num>n){
+//			System.out.println("灏忎簡锛�");
+//		}else if(num<n){
+//			System.out.println("澶т簡锛�");
+//		}
+//		}
+	
+		
+		
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		while(true){
+//		System.out.println("       欢迎登录系统");
+//		System.out.println("==================");
+//		System.out.println("     1.登录");
+//		System.out.println("     2.注册");
+//		System.out.println("     3.退出");
+//		System.out.println("==================");
+//		int n =input.nextInt();
+//		if(n==1){
+//			System.out.println("登录成功");
+//		}else if(n==2){
+//			System.out.println("注册成功");
+//		}else if(n==3){
+//			System.out.println("退出成功");
+//			break;
+//		}else{
+//			System.out.println("选择错误");
+//		}
+//		System.out.println("程序正常退出");
+//		}
+		
+		//99乘法表
+		//外层控制行，内存控制列
+//		for(int i=1;i<=9;i++){
+//			for(int n = 1 ; n <=i ; n++){
+//				System.out.print(n + "*" + n + "=" + i*n +" ");
+//			}
+//			System.out.println();
+//		}
+	
+		
+		//输出顺序2*3  2*3  2*3  41 2*3 2*3 2*3 4 12*3 2*3 2*34
+//		for(int a=0;a<3;a++){
+//			//System.out.print("1");
+//			for(int b=0;b<3;b++){
+//				//System.out.print("2");
+//				System.out.print(" *");
+//				//System.out.print("3");
+//			}
+//			System.out.println();
+//		}
+		
+		
+//		
+//		for(int b=0;b<4;b++){
+//			for(int a=0;a<3;a++){
+//				System.out.print(" *");
+//			}
+//			System.out.println(" #");
+//			}
+			
+		//for循环
+		//100以内的奇数和
+		
+//		int count=0;
+//		for(int a=1;a<=100; a++){
+//			if(a % 2==1){
+//				count +=a;
+//			}
+//		}
+//		System.out.println(count);
+//		
+//		int a=0;
+//		while(a<50){
+//			System.out.println(a);
+//			a++;
+//		}
+//		
+//		for(int i=0;i<50;i++){
+//			System.out.println(i);
+//		}
+//		
+		
+		
+//		java.util.Scanner input = new java.util.Scanner(System.in);
+//		int score;
+//		do{
+//			System.out.println("开始编程考试！");
+//			System.out.println("请输入成绩");
+//			score =input.nextInt();
+//		}while(score<60);
+//		System.out.println("考试通过了！");
+	
+
+//		//do-while 
+//		int a=0;
+//		do{
+//			a++;
+//			System.out.println("喜欢你"+a+"次");
+//		}while(a<999);
+		
+		
+		//continue和break
+//		int a =0;
+//		while(a<5){
+//			a++;
+//			if(a==4){
+//				continue;
+//			}
+//			System.out.println(a);
+//		}
+//		
+		//while
+		//100以内的偶数和
+//		int a=0;
+//		int b=0;
+//		while(a<=100){
+//			if(a%2==0){
+//				a=a+2;
+//			}
+//			b=b+a;
+//			System.out.println(b);
+//		}
+//		System.out.println(b);
+//		
+//		int a =0;
+//		while(a<50){
+//			System.out.println("hello");
+//			a++;
+//		}
+		
+		
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		int p=0;
+//		int score=0;
+//		String str ="y";
+//		while ("y".equalsIgnoreCase(str)){
+//			System.out.println("请输入成绩：");
+//			int s=input.nextInt();
+//			p++;
+//			score=s+score;
+//			System.out.println("y/n");
+//			str=input.next();
+//		}
+//		System.out.println("平均成绩是"+score/p);
+		
+		
+		
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//			int pice=0;
+//			String str ="y";
+//			
+//			while("y".equalsIgnoreCase(str)){
+//				System.out.println("请输入价格：");
+//				int s =input.nextInt();
+//				pice=pice+s;
+//				System.out.println("");
+//				str=input.next();
+//			}
+//		
+//			System.out.println("");
+		
+		
+		
+//		int a=1;
+//		while(a<=1000){
+//			System.out.println("喜欢你"+ a +"次");
+//			a++;
+//		}
+
+			
+//		//
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//			System.out.println("       欢迎登录系统");
+//			System.out.println("==================");
+//			System.out.println("     1.登录");
+//			System.out.println("     2.注册");
+//			System.out.println("     3.退出");
+//			System.out.println("==================");
+//		int a =input.nextInt();
+//		switch(a){
+//		case 1:
+//			a=1;
+//			System.out.println("请输入用户名：");
+//			String name =input.next();
+//			System.out.println("请输入密码：");
+//			String pswd=input.next();
+//			if(name.equals("tom")&&pswd.equals("123")){
+//				System.out.println("登录成功");
+//			}else{
+//				System.out.println("登录失败");
+//			}
+//			break;
+//		case 2:
+//			a=2;
+//			System.out.println("请输入用户名");
+//			String name1=input.next();
+//			System.out.println("请输入密码");
+//			String pswd1=input.next();
+//			if(name1.equals("tom")){
+//				System.out.println("用户名已经被占用");
+//			}else{
+//				System.out.println("注册成功");
+//			}
+//			break;
+//		case 3:
+//			a=3;
+//			System.out.println("退出");
+//			break;
+//		default:
+//			System.out.println("程序正常退出！");
+//			break;
+//		}
+		
+		
+		
+		
+		
+//		java.util.Scanner input=new java.util.Scanner(System.in);
+//		System.out.println("请输入金额：");
+//		int a=input.nextInt();
+//		if(a < 2000 && 0 < a){
+//			a=(int)(a*0.9);
+//		}else if(a>=2000 && a<4000){
+//			a=(int)(a*0.8);
+//		}else if(a>=4000 &&a<5000){
+//			a=(int)(a*0.7);
+//		}else if(a>=5000){
+//			a=(int)(a*0.6);
+//		}
+//		
+//		System.out.println("应付款："+a);
+		
+		
+//		java.util.Scanner input=new java.util.Scanner(System.in);
+//		System.out.println("输入金额：");
+//		int a=input.nextInt();
+//		if(a>100){
+//			a=a-10;
+//			System.out.println(a);
+//		}else{
+//			System.out.println(a);
+//		}
+//		
+		
+//		java.util.Scanner input=new java.util.Scanner(System.in);
+//		System.out.println("用户名：");
+//		String name=input.next();
+//		System.out.println("密码：");
+//		String pswd =input.next();
+//		
+//		if(((name.equals("tom")) && pswd.equals("123")) 
+//				||((name.equals("jim"))&& pswd.equals("567"))){
+//			System.out.println("登录成功");
+//		}else{
+//			System.out.println("登录失败");
+//		}
+//		
+//		
+//		
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		System.out.println("输入数字");
+//		int a =input.nextInt();
+//		boolean b=a%2==1;
+//		String message=b ? "奇数 " : "偶数";
+//		System.out.println(message);
+		
+		
+		
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		System.out.println("输入数字");
+//		int a =input.nextInt();
+//		boolean b= a% 2 ==1;
+//		if(b){
+//			System.out.println("奇数");
+//		}else{
+//			System.out.println("偶数");
+//		}
+//		
+	
+//		
+//		java.util.Scanner input = new java.util.Scanner(System.in);
+//		
+//		System.out.println("请输入圆的半径：");
+//		int a =input.nextInt();
+//		final float PI= 3.14f;
+//		double s=a*a*PI;
+//		System.out.println("圆的面积是"+s);
+		
+		
+//		int a=11;
+//		int b=22;
+//		int c=a;
+//		a=b;
+//		b=c;
+//		System.out.println(a);
+//		System.out.println(b);
+	
+		
+//		long i=100;
+//		int n=(int)i;
+//		System.out.println(n);
+		
+		
+//		boolean b=1>2;
+//		System.out.println(b);
+//		
+//		boolean a=1<2;
+//		System.out.println(a);
+		
+//		boolean a=(1>2)&&(2>1);
+//		boolean b=(1>2)||(2>1);
+//		boolean c=!(1>2);
+//		System.out.println(a);
+//		System.out.println(b);
+//		System.out.println(c);
+//		
+
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		System.out.println("请输入数字");
+//		int a=input.nextInt();
+//		System.out.println("千分位："+a/1000);
+//		System.out.println("百分位"+a/100%10);
+//		System.out.println("十分位"+a/10%10);
+//		System.out.println("个位"+a/1%10);
+//		
+		
+	
+//2		java.util.Scanner input=new java.util.Scanner(System.in);
+//		System.out.println("璜嬭几鍏ヤ竴鍊嬫暩瀛�);
+//		int a =input.nextInt();
+//		System.out.println(a);
+//		
+//		System.out.println("璜嬭几鍏ヤ竴鍊嬪瓧绗︿覆");
+//		String str =input.next();
+//		System.out.println(str);
+//		
+		
+		
+// 1	double score =95;
+//		String name ="lilei";
+//		char sex ='鐢�;
+//		System.out.println(score);
+//		System.out.println(name);
+//		System.out.println(sex);
+//		
+//		int num1= 10;
+//		System.out.println(num1++);
+//		
+//		System.out.println(num1);
+
+	
+	}
+
+}

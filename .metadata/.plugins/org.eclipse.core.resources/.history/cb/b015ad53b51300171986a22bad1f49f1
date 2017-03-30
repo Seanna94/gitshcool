@@ -1,0 +1,62 @@
+package com.cn.one;
+
+public class login {
+
+	public static void main(String[] args) {
+		//实现图书管理系统的注册与登录
+		//提示：
+		//使用一个数组names记录用户名
+		//使用数组passwords记录密码
+		//注册时将控制台录入的帐号和密码存入数组
+		//遍历数组确保用户名不重复
+		//登录时遍历names寻找用户名
+		//匹配对应的密码判断是否一致
+		String[] names=new String[30];
+		String[] password=new String[names.length];
+		
+		java.util.Scanner input =new java.util.Scanner(System.in);
+		while(true){
+		System.out.println("       欢迎登录管理系统");
+		System.out.println("==================");
+		System.out.println("     1.登录");
+		System.out.println("     2.注册");
+		System.out.println("     3.退出");
+		System.out.println("==================");
+		System.out.println("请选择：");
+		int n =input.nextInt();
+		
+		if(n==1){
+			System.out.println("你选择了登录！");
+			System.out.println("===============");
+			System.out.println("请输入用户名：");
+			String name=input.next();
+			System.out.println("请输入密码：");
+			String pass=input.next();
+			
+			for(int i=0;i<names.length;i++){
+				if(names[i]==null){
+					System.out.println("用户名不存在！");
+					break;
+				}
+				if(names[i].equals(name)&&password[i].equals(pass)){
+					System.out.println("登录成功！");
+					break;
+				}
+			}
+			
+		}else if(n==2){
+			System.out.println("选择了注册！");
+			System.out.println("=============");
+		}else if(n==3){
+			System.out.println("退出成功");
+			break;
+		}else{
+			System.out.println("选择错误！");
+		}
+		System.out.println("程序正常退出");
+		}
+
+
+	}
+
+}

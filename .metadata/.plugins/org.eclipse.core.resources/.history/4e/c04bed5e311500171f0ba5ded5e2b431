@@ -1,0 +1,7 @@
+package com.cn.test2;
+
+public class User {
+	private String name="tom";
+	private String password="123";
+
+}

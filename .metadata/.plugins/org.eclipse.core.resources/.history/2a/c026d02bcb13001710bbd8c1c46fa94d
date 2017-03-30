@@ -1,0 +1,393 @@
+package com.cn.one;
+
+public class Variate {
+	
+	public static void main (String[] args){
+		
+		//鏁板瓧鐚滃ぇ灏忔父鎴�
+		//鑾峰彇100浠ュ唴鐨勯殢鏈烘暟锛�
+		//(int)(Math.random() * 100) + 1;
+		//鑾峰彇鐢ㄦ埛杈撳叆姣旇緝姣旈殢鏈烘暟澶ф垨灏忓苟鎻愮ず
+		//璁板綍鐚滀簡澶氬皯娆�
+		java.util.Scanner input =new java.util.Scanner(System.in);
+		double num =(int)(Math.random()*100)+1;
+		System.out.println("鐚滃ぇ灏忔父鎴忓紑濮嬶紒");
+		int count=0;
+		while(true){
+		count++;
+		System.out.println("璇疯緭鍏ワ細");
+		int n=input.nextInt();
+		if(num==n){
+			System.out.println("鐚滃浜�涓�叡鐚滀簡"+count+"娆★紒");
+			break;
+		}else if(num>n){
+			System.out.println("灏忎簡锛�");
+		}else if(num<n){
+			System.out.println("澶т簡锛�");
+		}
+		}
+	
+		
+		
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		while(true){
+//		System.out.println("       欢迎登录系统");
+//		System.out.println("==================");
+//		System.out.println("     1.登录");
+//		System.out.println("     2.注册");
+//		System.out.println("     3.退出");
+//		System.out.println("==================");
+//		int n =input.nextInt();
+//		if(n==1){
+//			System.out.println("登录成功");
+//		}else if(n==2){
+//			System.out.println("注册成功");
+//		}else if(n==3){
+//			System.out.println("退出成功");
+//			break;
+//		}else{
+//			System.out.println("选择错误");
+//		}
+//		System.out.println("程序正常退出");
+//		}
+		
+		//寰幆宓屽
+		//瀹炵幇鎵撳嵃涔濅節涔樻硶琛�
+		//澶栧眰寰幆鎺у埗琛屾暟锛屽唴灞傚惊鐜帶鍒跺垪鏁�
+//		for(int i=1;i<=9;i++){
+//			for(int n = 1 ; n <=i ; n++){
+//				System.out.print(n + "*" + n + "=" + i*n +" ");
+//			}
+//			System.out.println();
+//		}
+	
+		//姣忔鎵撳嵃涓�釜*瀹屾垚鐭╁舰鐨勬墦鍗�
+		//鎵ц椤哄簭锛�2*3  2*3  2*3  41 2*3 2*3 2*3 4 12*3 2*3 2*34
+//		for(int a=0;a<3;a++){
+//			System.out.print("1");
+//			for(int b=0;b<3;b++){
+//				System.out.print("2");
+//				System.out.print(" *");
+//				System.out.print("3");
+//			}
+//			System.out.print("4");
+//		}
+		
+		
+		//澶栧眰鎺у埗琛岋紝鍐呭眰鎺у埗鍒�
+//		for(int b=0;b<4;b++){
+//			for(int a=0;a<3;a++){
+//				System.out.print(" *");
+//			}
+//			System.out.println(" #");
+//			}
+			
+		//for寰幆
+		//瀵�00浠ュ唴鐨勫鏁版眰鍜�
+		
+//		int count=0;
+//		for(int a=1;a<=100; a++){
+//			if(a % 2==1){
+//				count +=a;
+//			}
+//		}
+//		System.out.println(count);
+//		
+//		int a=0;
+//		while(a<50){
+//			System.out.println(a);
+//			a++;
+//		}
+//		
+//		for(int i=0;i<50;i++){
+//			System.out.println(i);
+//		}
+//		
+		
+		//鍒ゆ柇鑰冭瘯鏄惁鍚堟牸锛屼笉鍚堟牸鍒欑户缁�璇�
+//		java.util.Scanner input = new java.util.Scanner(System.in);
+//		int score;
+//		do{
+//			System.out.println("杩涜缂栫▼鑰冭瘯锛�);
+//			System.out.println("鑰冭瘯寰楀垎");
+//			score =input.nextInt();
+//		}while(score<60);
+//		System.out.println("鑰冭瘯鎴愮哗鍚堟牸锛�);
+	
+//		//閫夋嫨缁撴瀯
+//		//do-while 鍏堟墽琛�鍐嶅垽鏂�
+//		int a=0;
+//		do{
+//			a++;
+//			System.out.println("鎴戝枩娆綘锛岀"+a+"娆★紒");
+//		}while(a<999);
+		
+		
+		//continue鍜宐reak
+//		int a =0;
+//		while(a<5){
+//			a++;
+//			if(a==4){
+//				continue;
+//			}
+//			System.out.println(a);
+//		}
+//		
+		//while鍏堝垽鏂啀鎵ц
+		//瀵�00浠ュ唴鐨勫伓鏁版眰鍜�
+//		int a=0;
+//		int b=0;
+//		while(a<=100){
+//			if(a%2==0){
+//				a=a+2;
+//			}
+//			b=b+a;
+//			System.out.println(b);
+//		}
+//		System.out.println(b);
+//		
+//		int a =0;
+//		while(a<50){
+//			System.out.println("濂藉ソ瀛︿範锛屽ぉ澶╁悜涓�);
+//			a++;
+//		}
+		
+		//杈撳叆鐝骇浜烘暟姹傚钩鍧囧垎
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		int p=0;
+//		int score=0;
+//		String str ="y";
+//		while ("y".equalsIgnoreCase(str)){
+//			System.out.println("璇疯緭鍏ユ垚缁╋細");
+//			int s=input.nextInt();
+//			p++;
+//			score=s+score;
+//			System.out.println("鏄惁缁х画锛�y/n)");
+//			str=input.next();
+//		}
+//		System.out.println("骞冲潎鎴愮哗鏄細"+score/p);
+//		
+//		
+		
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//			int pice=0;
+//			String str ="y";
+//			
+//			while("y".equalsIgnoreCase(str)){
+//				System.out.println("璇疯緭鍏ラ噾棰濓細");
+//				int s =input.nextInt();
+//				pice=pice+s;
+//				System.out.println("鏄惁缁х画锛燂紙y/n锛�);
+//				str=input.next();
+//			}
+		
+//			System.out.println("鎬婚噾棰濇槸锛�+pice);
+		
+		
+		
+//		int a=1;
+//		while(a<=1000){
+//			System.out.println("浣犲ソ锛岀"+ a +"娆�);
+//			a++;
+//		}
+		
+		//瀹炵幇涓汉鎵�緱绋庡姛鑳�
+		//TODO
+//		涓汉鎵�緱绋庤绠楁柟娉曪細
+//		鎵ｉ櫎鏍囧噯3500鍏�鏈�
+//		鍏ㄦ湀搴旂撼绋庢墍棰澛犅犅犅犅犅犅犅犅犅犵◣鐜嚶犅�     閫熺畻鎵ｉ櫎鏁�
+//		涓嶈秴杩�500鍏兟犅犅犅犅犅犅犅犅犅犅犅�3%聽聽聽聽聽聽聽聽聽0
+//		瓒呰繃1500鍏冭嚦4500鍏兟犅犅犅犅�10%聽聽聽聽聽聽聽聽聽105
+//		瓒呰繃4500鍏冭嚦9000鍏兟犅犅犅犅犅�0%聽聽聽聽聽聽聽聽聽555
+//		瓒呰繃9000鍏冭嚦35000鍏兟犅犅犅�25%聽聽聽聽聽聽聽聽聽1005
+//		瓒呰繃35000鍏冭嚦55000鍏兟犅犅犅�0%聽聽聽聽聽聽聽聽聽2755
+//		瓒呰繃55000鍏冭嚦80000鍏�   35%聽聽聽聽聽聽聽聽聽 	 5505
+//		瓒呰繃80000鍏�            45%聽聽聽聽聽聽聽聽        13505
+		
+		
+//		//浣跨敤switch璇彞瀹炵幇鐧诲綍鐣岄潰閫夋嫨鍔熻兘
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		System.out.println("       娆㈣繋鐧诲綍绠＄悊绯荤粺");
+//		System.out.println("==================");
+//		System.out.println("     1.鐧诲綍");
+//		System.out.println("     2.娉ㄥ唽");
+//		System.out.println("     3.閫�嚭");
+//		System.out.println("==================");
+//		System.out.println("璇烽�鎷╋細");
+//		int a =input.nextInt();
+//		switch(a){
+//		case 1:
+//			a=1;
+//			System.out.println("璇疯緭鍏ョ敤鎴峰悕锛�);
+//			String name =input.next();
+//			System.out.println("璇疯緭鍏ュ瘑鐮侊細");
+//			String pswd=input.next();
+//			if(name.equals("tom")&&pswd.equals("123")){
+//				System.out.println("鐧诲綍鎴愬姛锛�);
+//			}else{
+//				System.out.println("鐢ㄦ埛鍚嶆垨瀵嗙爜閿欒锛�);
+//			}
+//			break;
+//		case 2:
+//			a=2;
+//			System.out.println("璇疯緭鍏ョ敤鎴峰悕锛�);
+//			String name1=input.next();
+//			System.out.println("璇疯緭鍏ュ瘑鐮侊細");
+//			String pswd1=input.next();
+//			if(name1.equals("tom")){
+//				System.out.println("鐢ㄦ埛鍚嶅凡缁忚鍗犵敤锛�);
+//			}else{
+//				System.out.println("娉ㄥ唽鎴愬姛锛�);
+//			}
+//			break;
+//		case 3:
+//			a=3;
+//			System.out.println("閫�嚭鎴愬姛锛�);
+//			break;
+//		default:
+//			System.out.println("娆㈣繋浣跨敤锛�);
+//			break;
+//		}
+		
+		
+		
+		
+		
+//		java.util.Scanner input=new java.util.Scanner(System.in);
+//		System.out.println("璇疯緭鍏ユ秷璐归噾棰濓細");
+//		int a=input.nextInt();
+//		if(a < 2000 && 0 < a){
+//			a=(int)(a*0.9);
+//		}else if(a>=2000 && a<4000){
+//			a=(int)(a*0.8);
+//		}else if(a>=4000 &&a<5000){
+//			a=(int)(a*0.7);
+//		}else if(a>=5000){
+//			a=(int)(a*0.6);
+//		}
+//		
+//		System.out.println("瀹炰粯閲戦鏄細"+a);
+		
+		//瀹炵幇婊�00鍑�0鐨勫姛鑳�
+//		java.util.Scanner input=new java.util.Scanner(System.in);
+//		System.out.println("璇疯緭鍏ユ秷璐归噾棰濓細");
+//		int a=input.nextInt();
+//		if(a>100){
+//			a=a-10;
+//			System.out.println(a);
+//		}else{
+//			System.out.println(a);
+//		}
+//		
+		//瀹炵幇鍗曠敤鎴�涓や釜鐢ㄦ埛鐧诲綍
+//		java.util.Scanner input=new java.util.Scanner(System.in);
+//		System.out.println("璇疯緭鍏ョ敤鎴峰悕锛�);
+//		String name=input.next();
+//		System.out.println("璇疯緭鍏ュ瘑鐮�);
+//		String pswd =input.next();
+//		
+//		if(((name.equals("tom")) && pswd.equals("123")) 
+//				||((name.equals("jim"))&& pswd.equals("567"))){
+//			System.out.println("鐧诲綍鎴愬姛锛�);
+//		}else{
+//			System.out.println("鐧诲綍澶辫触锛�);
+//		}
+//		
+		
+		//涓夊厓杩愮畻绗�
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		System.out.println("璇疯緭鍏ヤ竴涓暟瀛�);
+//		int a =input.nextInt();
+//		boolean b=a%2==1;
+//		String message=b ? "浣犺緭鍏ョ殑鏄竴涓鏁� : "浣犺緭鍏ョ殑鏄竴涓伓鏁�;
+//		System.out.println(message);
+		
+		
+		//鍒ゆ柇濂囧伓鏁�
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		System.out.println("璇疯緭鍏ヤ竴涓暟瀛�);
+//		int a =input.nextInt();
+//		boolean b= a% 2 ==1;
+//		if(b){
+//			System.out.println("杩欐槸涓�釜濂囨暟");
+//		}else{
+//			System.out.println("杩欐槸涓伓鏁�);
+//		}
+//		
+	
+		//杈撳叆鍗婂緞姹傚渾鐨勯潰绉苟杈撳嚭
+//		java.util.Scanner input = new java.util.Scanner(System.in);
+//		System.out.println("璜嬭几鍏ュ湏鐨勫崐寰戯細");
+//		int a =input.nextInt();
+//		//float PI= 3.14f;
+//		double PI=3.14;
+//		double s=a*a*PI;
+//		System.out.println("鍦撶殑闈㈢鏄細"+s);
+		
+		//鍏╂暩浜掓彌
+//		int a=11;
+//		int b=22;
+//		int c=a;
+//		a=b;
+//		b=c;
+//		System.out.println(a);
+//		System.out.println(b);
+	
+		//寮哄埗椤炲瀷杞夋彌
+//		long i=100;
+//		int n=(int)i;
+//		System.out.println(n);
+		
+		//boolean椤炲瀷
+//		boolean b=1>2;
+//		System.out.println(b);
+//		
+//		boolean a=1<2;
+//		System.out.println(a);
+		
+//		boolean a=(1>2)&&(2>1);
+//		boolean b=(1>2)||(2>1);
+//		boolean c=!(1>2);
+//		System.out.println(a);
+//		System.out.println(b);
+//		System.out.println(c);
+//		
+			
+	//灏嗕竴涓洓浣嶆暟杩涜鎷嗗垎锛屽垎鍒緭鍑烘瘡浣嶆暟瀛�
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		System.out.println("璜嬭几鍏ヤ竴鍊嬪洓浣嶆暩");
+//		int a=input.nextInt();
+//		System.out.println("鍥涗綅鏁哥殑鍗冧綅鏄細"+a/1000);
+//		System.out.println("鍥涗綅鏁哥殑鐧句綅鏄細"+a/100%10);
+//		System.out.println("鍥涗綅鏁哥殑鍗佷綅鏄細"+a/10%10);
+//		System.out.println("鍥涗綅鏁哥殑鍊嬩綅鏄細"+a/1%10);
+//		
+		
+	
+//2		java.util.Scanner input=new java.util.Scanner(System.in);
+//		System.out.println("璜嬭几鍏ヤ竴鍊嬫暩瀛�);
+//		int a =input.nextInt();
+//		System.out.println(a);
+//		
+//		System.out.println("璜嬭几鍏ヤ竴鍊嬪瓧绗︿覆");
+//		String str =input.next();
+//		System.out.println(str);
+//		
+		
+		
+// 1	double score =95;
+//		String name ="lilei";
+//		char sex ='鐢�;
+//		System.out.println(score);
+//		System.out.println(name);
+//		System.out.println(sex);
+//		
+//		int num1= 10;
+//		System.out.println(num1++);
+//		
+//		System.out.println(num1);
+
+	
+	}
+
+}

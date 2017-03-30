@@ -157,7 +157,7 @@ public class Array {
 //			System.out.println(i+":"+array[i]);
 //		}
 //		
-//		//foreach��������
+//		//foreach
 //		for(int temp:array){
 //			System.out.println(temp);
 //		}
@@ -177,7 +177,7 @@ public class Array {
 //		int[] arr2=new int[] {1,2,3,4,5};
 //		System.out.println(arr2[0]);
 		
-		//array   int����Ĭ��ֵΪ0;
+		//array ;
 		
 //		int[]  array =new int[30];
 //		System.out.println(array.length);

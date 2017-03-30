@@ -1,0 +1,31 @@
+package com.cn.test1;
+
+public class Test {
+
+	public static void main(String[] args) {
+		//对象间的赋值属于引用传递
+		Dog mydog = new Dog();
+		mydog.color="yellow";
+		mydog.name="小黄";
+		mydog.sex="man";
+		
+		Dog yourdog=new Dog();
+		yourdog.name="小黑";
+		yourdog.color="red";
+		yourdog.sex="woman";
+		
+		yourdog=mydog;
+		System.out.println(yourdog.name);
+		System.out.println(yourdog.color);
+		System.out.println(yourdog.sex);
+		
+		
+//		Dog harry = new Dog();
+//		harry.run();
+//		harry.bark();
+//		
+//		harry.color="yellow";
+//		System.out.println(harry.color);
+	}
+
+}

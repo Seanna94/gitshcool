@@ -1,0 +1,11 @@
+package com.cn.test2;
+
+public class User {
+	private String name;
+	private String password;
+	
+	public void login(){
+		System.out.println("login");
+	}
+
+}
