@@ -1,6 +1,6 @@
 package com.cn.one;
 
-public class array {
+public class Array {
 
 	public static void main(String[] args) {
 		//debug
@@ -8,28 +8,37 @@ public class array {
 //			System.out.println(i);
 //		}
 //		
-		
-		
-//		java.util.Scanner input =new java.util.Scanner(System.in);
-//		System.out.println("请输入人数：");
-//		int i=input.nextInt();
-//		int[] score=new int[i];
-//		int all=0;
 //		
-//		for(int a=0;a<i;a++){
-//			System.out.println("请输入成绩");
-//			int s =input.nextInt();
-//			score[a]=s;
-//			all=all+s;
-//			System.out.println(all);
-//			if( a = i){//Type mismatch: cannot convert from int to boolean
-//				//TODO
-//				System.out.println("2");
-//			int	avg=all/i;
-//				System.out.println("平均分"+avg);
-//				break;
-//			}
+//		
+		java.util.Scanner input =new java.util.Scanner(System.in);
+		System.out.println("请输入人数：");
+		int i=input.nextInt();
+		int[] score=new int[i];
+		int all=0;
+
+		for(int a=0;a<i;a++){
+			System.out.println("请输入成绩");
+			int s =input.nextInt();
+			score[a]=s;
+			all=all+s;
+		}
+		
+		int	avg=all/i;
+		System.out.println("平均分"+avg);
+
+//		java.util.Scanner input =new java.util.Scanner(System.in);
+//		int p=0;
+//		int score=0;
+//		String str ="y";
+//		while ("y".equalsIgnoreCase(str)){
+//			System.out.println("请输入成绩：");
+//			int s=input.nextInt();
+//			p++;
+//			score=s+score;
+//			System.out.println("y/n");
+//			str=input.next();
 //		}
+//		System.out.println("平均成绩是"+score/p);
 		
 		
 		
