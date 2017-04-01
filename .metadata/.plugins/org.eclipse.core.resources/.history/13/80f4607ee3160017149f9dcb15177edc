@@ -1,0 +1,99 @@
+package com.cn.test2;
+
+public class Test2 {
+	
+	public static void main(String[] args) {
+	
+		//TODO
+		//数组存储用户
+		
+		String[][] arr=new String[30][2];
+		
+		
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = 0; j < arr[i].length; j++) {
+				System.out.print(arr[i][j]);
+			}
+			
+			System.out.println("  ");
+		}
+		
+		User user =new User();
+	
+		while (true) {
+			java.util.Scanner sc =new java.util.Scanner(System.in);
+			System.out.println("==欢迎登陆管理系统==");
+			System.out.println("     1.登陆");
+			System.out.println("     2.注册");
+			System.out.println("     3.退出");
+			System.out.println("====================");
+			System.out.print("请选择：");
+			int num = sc.nextInt();
+			if (num == 1) {
+				System.out.println("选择了登陆");
+				System.out.println("用户名：");
+				String loginName=sc.next();
+				System.out.println("密码：");
+				String loginPwd=sc.next();
+				for (int i = 0; i < arr.length; i++) {
+					for (int j = 0; j < arr[i].length; j++) {
+						if(loginName.equals(arr[i])&&loginPwd.equals(arr[j])){
+							System.out.println("登陆成功！");
+						}else{
+							System.out.println("用户名或密码错误！");
+						}
+					}
+				}
+			} else if (num == 2) {
+				System.out.println("选择了注册！");
+				System.out.println("用户名：");
+				user.name=sc.next();
+				System.out.println("密码：");
+				user.password=sc.next();
+				System.out.println("注册成功！");
+				} else if (num == 3) {
+				System.out.println("退出成功！");
+				break;
+			} else {
+				System.out.println("选择错误！");
+			}
+		}
+
+		System.out.print("程序运行结束，正常关闭！");
+		
+		//多维数组
+//		int[][] arr=new int [4][5];
+//		arr[0][0]=1;
+//		arr[1][0]=2;	
+//		arr[0][1]=9;
+//		arr[1][1]=7;
+//		arr[2][1]=6;
+		
+//		System.out.println(arr[0][0]);
+//		System.out.println(arr[1][0]);
+//		System.out.println(arr[2][0]);
+//		System.out.println(arr[3][0]);
+//		System.out.println(arr[1][1]);
+		
+	
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
