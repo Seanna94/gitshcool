@@ -3,65 +3,54 @@ package pojo;
 import java.io.Serializable;
 
 public class Teacher implements Serializable{
-	private int teacherId;
-	private String teacherCode;
-	private String teacherType;
-	private String teacherName;
-	private String teacherSex;
+	private int tid;
+	private String tCode;
+	private String tType;
+	private String tName;
+	private String tSex;
 	private String deptId;
-	private String linkTel;
-	
-	
-	public int getTeacherId() {
-		return teacherId;
+	private String tel;
+	public int getTid() {
+		return tid;
 	}
-	public void setTeacherId(int teacherId) {
-		this.teacherId = teacherId;
+	public void setTid(int tid) {
+		this.tid = tid;
 	}
-	public String getTeacherCode() {
-		return teacherCode;
+	public String gettCode() {
+		return tCode;
 	}
-	public void setTeacherCode(String teacherCode) {
-		this.teacherCode = teacherCode;
+	public void settCode(String tCode) {
+		this.tCode = tCode;
 	}
-	public String getTeacherName() {
-		return teacherName;
+	public String gettType() {
+		return tType;
 	}
-	public void setTeacherName(String teacherName) {
-		this.teacherName = teacherName;
+	public void settType(String tType) {
+		this.tType = tType;
 	}
-	public String getTeacherSex() {
-		return teacherSex;
+	public String gettName() {
+		return tName;
 	}
-	public void setTeacherSex(String teacherSex) {
-		this.teacherSex = teacherSex;
+	public void settName(String tName) {
+		this.tName = tName;
 	}
-//	public Dept getDept() {
-//		return dept;
-//	}
-//	public void setDept(Dept dept) {
-//		this.dept = dept;
-//	}
-	public String getTeacherType() {
-		return teacherType;
+	public String gettSex() {
+		return tSex;
 	}
-	public void setTeacherType(String teacherType) {
-		this.teacherType = teacherType;
+	public void settSex(String tSex) {
+		this.tSex = tSex;
 	}
-	public String getLinkTel() {
-		return linkTel;
-	}
-	public void setLinkTel(String linkTel) {
-		this.linkTel = linkTel;
-	}
-	
 	public String getDeptId() {
 		return deptId;
 	}
 	public void setDeptId(String deptId) {
 		this.deptId = deptId;
 	}
-	
-	
+	public String getTel() {
+		return tel;
+	}
+	public void setTel(String tel) {
+		this.tel = tel;
+	}
 
 }

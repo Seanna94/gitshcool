@@ -16,11 +16,11 @@
 <script type="text/javascript">
 function form_onValidSave(){
 
-var teacherId=document.getElementById("teacherId").value;
-var teacherCode=document.getElementById("teacherCode").value;
-var teacherType=document.getElementById("teacherType").value;
-var teacherName=document.getElementById("teacherName").value;
-var teacherSex=document.getElementById("teacherSex").value;
+var tid=document.getElementById("tid").value;
+var tCode=document.getElementById("tCode").value;
+var tType=document.getElementById("tType").value;
+var tName=document.getElementById("tName").value;
+var tSex=document.getElementById("tSex").value;
 
 
 var b=false;
@@ -121,13 +121,13 @@ function getTypeName(){
                           <TR>
                             <TD class=FieldTitle_Text>教师工号<IMG 
                               src="../img/star.gif">:</TD>
-                            <TD><INPUT style="WIDTH: 70%" id=teacherCode class=required 
-                              name=teacherCode></TD>
+                            <TD><INPUT style="WIDTH: 70%" id=tCode class=required 
+                              name=tCode></TD>
                             
                             <TD class=FieldTitle_Text>教师职称<IMG 
                               src="../img/star.gif">:</TD>
-                            <TD><SELECT id=teacherType class=required 
-                              name=teacherType> 
+                            <TD><SELECT id=tType class=required 
+                              name=tType> 
                               <OPTION selected value="助教">助教</OPTION>
                                <OPTION value="讲师">讲师</OPTION>
                                 <OPTION  value="副教授">副教授</OPTION>
@@ -137,14 +137,14 @@ function getTypeName(){
                           <TR>
                             <TD class=FieldTitle_Text>教师姓名<IMG 
                               src="../img/star.gif">:</TD>
-                            <TD><INPUT style="WIDTH: 70%" id=teacherName class=required 
-                              maxLength=50 name=teacherName></TD>
+                            <TD><INPUT style="WIDTH: 70%" id=tName class=required 
+                              maxLength=50 name=tName></TD>
                           
                           
                             <TD class=FieldTitle_Text>教师性别<IMG 
                               src="../img/star.gif">:</TD>
-                             <TD><SELECT id=teacherSex class=required 
-                              name=teacherSex> 
+                             <TD><SELECT id=tSex class=required 
+                              name=tSex> 
                               <OPTION selected value="男">男</OPTION>
                               <OPTION value="女">女</OPTION></SELECT> 
                             </TD>

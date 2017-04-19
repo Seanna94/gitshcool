@@ -27,22 +27,22 @@ public class AddTeacherServlet extends HttpServlet {
 		req.setCharacterEncoding("UTF-8");
 		resp.setCharacterEncoding("UTF-8");
 		
-		String code=req.getParameter("teacherCode");
-		String type=req.getParameter("teacherType");
-		String name=req.getParameter("teacherName");
-		String sex=req.getParameter("teacherSex");
+		String code=req.getParameter("tCode");
+		String type=req.getParameter("tType");
+		String name=req.getParameter("tName");
+		String sex=req.getParameter("tSex");
 		String deptId=req.getParameter("deptId");
-		String tel=req.getParameter("linkTel");
+		String tel=req.getParameter("tel");
 		//req.setAttribute("code", code);
 		System.out.println(name);
 		
 		Teacher teacher=new Teacher();
-		teacher.setTeacherCode(code);
-		teacher.setTeacherType(type);
-		teacher.setTeacherName(name);
-		teacher.setTeacherSex(sex);
+		teacher.settCode(code);
+		teacher.settType(type);
+		teacher.settName(name);
+		teacher.settSex(sex);
 		teacher.setDeptId(deptId);
-		teacher.setLinkTel(tel);
+		teacher.setTel(tel);
 		
 		TeacherService ts=new TeacherServiceImpl();
 		try {
